@@ -1,0 +1,453 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    /* background-image: url(img/Guinee-Conakry-Ivonomad-14.jpg); */
+    background-position: center;
+    background-repeat: repeat-x;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: aquamarine;
+    color: rgb(32, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1OOO;
+}
+
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background: #e0f0fb;
+    height: 0px;
+    padding: 0px;
+} */
+
+/* header .nav-menu {
+    margin-left: 0px;
+    text-decoration: none;
+    color: azure;
+
+} */
+
+/* header nav h1{
+    display: flex;
+    float: left;
+    margin-left: 0px;
+    text-transform: uppercase;
+    font-size: small;
+} */
+
+/* header nav img {
+    float: left;   
+    margin-right: 0px;
+} */
+
+nav ul {
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    float: right;
+    gap: 20px;
+}
+
+/* section h2 {
+    display: flex;
+    color: rgb(17, 17, 17);
+    font-size: 26px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+} */
+
+/* 
+section div text {
+    width: 60%;
+    color: #1d3557;
+} */
+
+/* section div text h1 {
+    color: #14213d;
+    font-size: 2em;
+    background-position: center;
+} */
+
+/* section div text p {
+    font-size: medium;
+    float: left;
+    background-color: aliceblue;
+} */
+/* 
+section div image img {
+    display: flex;
+    float: right;
+} */
+
+.texte {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texte-gauche {
+    width: 60%;display: flex;
+    color: #06c;
+    font-size: 20px;
+
+}
+
+.image-droite {
+    width: 60%;
+    max-width: 300px;
+}
+
+h1 {
+text-align: center;
+background-color: aquamarine;
+position: relative;
+border: 1px solid black;
+margin: 0px;
+}
+
+ .texte-gauche {
+    position: relative;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+}
+
+.destination h2 {
+    text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.formulaire-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+color: #004080;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #003060;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0px;
+  margin:  15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: aquamarine;
+  color: rgb(68, 10, 230);
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  }
+
+  .footer-logo {
+  max-width: 250px;
+}
+
+.footer-logo img {
+  width: 50px;
+}
+
+.social-icons img {
+  width: 20px;
+  margin: 10px 5px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-links h4 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+
+/* .bloc-associe {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bloc-associe img {
+  width: 150px;
+  height: auto;
+}
+
+.bloc-associe p {
+  flex: 1;
+}
+.destination h2 {
+  display: flex;
+  align-items: center;
+} */
+
+.services {
+  padding: 40px 20px;
+  background-image: url(img/Guinee-Conakry-Ivonomad-14.jpg);
+}
+
+.services h2 {
+  text-align: center;
+  color: #004080;
+  margin-bottom: 30px;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.service-item h3 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  color: #333;
+  font-size: 14px;
+}
+
+.destinations {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.destinations h2 {
+  text-align: center;
+  color: #004080;
+  margin-bottom: 30px;
+}
+
+.destination-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.destination-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.destination-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.destination-item h3 {
+  color: #e67e22;
+  margin-top: 10px;
+}
+
+.destination-item p {
+  color: #333;
+  font-size: 14px;
+}
+
+
+.about {
+background-color: whitesmoke;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.about .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  text-align: center;
+  color: #004080;
+  margin-bottom: 20px;
+}
+
+.about h3 {
+  color: #e67e22;
+  margin-top: 20px;
+}
+
+.about p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.about ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.destina {
+  display: flex;
+  justify-content: space-between;
+}
+
+.destina img {
+  height: 100px; width: 100px;
+}
